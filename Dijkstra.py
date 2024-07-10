@@ -46,10 +46,3 @@ def build_graph(data):
 data = acessoaobd()
 
 graph = build_graph(data)
-start = int(input("Digite o nó inicial: "))
-end = int(input("Digite o nó final: "))
-
-path, distance = dijkstra(graph, start, end)
-print(f"O menor caminho do nó {start} ao nó {end} é: {path} com distância total de {distance}")
-
-visualize_graph(graph, path)
