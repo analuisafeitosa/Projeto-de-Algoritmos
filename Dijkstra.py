@@ -1,5 +1,6 @@
 import heapq
 from acessoaobanco import acessoaobd
+from visualizaçãodografo import visualize_graph
 
 def dijkstra(graph, start, end):
     queue = []
@@ -39,7 +40,7 @@ def build_graph(data):
         if v not in graph:
             graph[v] = {}
         graph[u][v] = w
-        graph[v][u] = w  # If the graph is undirected
+        graph[v][u] = w  
     return graph
 
 data = acessoaobd()
@@ -50,3 +51,5 @@ end = int(input("Digite o nó final: "))
 
 path, distance = dijkstra(graph, start, end)
 print(f"O menor caminho do nó {start} ao nó {end} é: {path} com distância total de {distance}")
+
+visualize_graph(graph, path)
