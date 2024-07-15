@@ -10,6 +10,8 @@ _sqlite3_;
 
 _heapq_;
 
+_networkx_;
+
 _matplotlib.pyplot_.
 
 ### Banco de dados
