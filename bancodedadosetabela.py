@@ -27,4 +27,3 @@ with open(edges_file, 'r') as file:
 conn.commit()
 conn.close()
 
-print(f"Dados do arquivo {edges_file} foram inseridos no banco de dados {sqlite_db}.")

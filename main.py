@@ -11,3 +11,5 @@ path, distance = dijkstra(graph, start, end)
 print(f"O menor caminho do nó {start} ao nó {end} é: {path} com distância total de {distance}")
 
 visualize_graph(graph, path)
+
+#Por Ana Luisa e Saunay Coutinho
