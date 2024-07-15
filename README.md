@@ -27,6 +27,11 @@ Para a execução do algoritmo em sua máquina é necessário:
 
 **3.** Após isso a execução poderá ser realizada com facilidade.
 
+# Realizado por
+Ana Luisa Feitosa - alfg@cin.ufpe.br
+
+Saunay Coutinho - svsc@cin.ufpe.br
+
 # Imagens
 
 ![image](https://github.com/user-attachments/assets/6ce31041-8369-4ad5-ae98-8cc5aad0b3c3)
