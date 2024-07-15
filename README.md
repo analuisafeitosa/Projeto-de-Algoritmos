@@ -14,6 +14,19 @@ _networkx_;
 
 _matplotlib.pyplot_.
 
+# Estrutura do projeto
+
+### Dijkstra 
+Contém a lógica do algoritmo de Dijkstra
+### Banco de dados e tabela
+Contém a criação do banco de dados
+### Acesso ao bd
+Contém a conexão com o banco de dados
+### Visualização do grafo
+Contém lógica que realiza visualização gráfica do código
+### Main.py
+Contém a junção de todas as funções e é onde programa deve ser executado.
+
 ### Banco de dados
 
 Extraído do Network Data Repository, o banco de dados escolhido foi "Aves Barn Swallow Contact Network".
@@ -27,7 +40,7 @@ Para a execução do algoritmo em sua máquina é necessário:
 **2.** Realizar o pip install 
 `pip install networkx matplotlib pillow`
 
-**3.** Após isso a execução poderá ser realizada com facilidade.
+**3.** Após isso poderá ser dado "Run" e inserir os dados solicitados.
 
 # Realizado por
 Ana Luisa Feitosa - alfg@cin.ufpe.br
@@ -39,5 +52,15 @@ Saunay Coutinho - svsc@cin.ufpe.br
 ![image](https://github.com/user-attachments/assets/6ce31041-8369-4ad5-ae98-8cc5aad0b3c3)
 
 ![image](https://github.com/user-attachments/assets/d3d3a0f1-cfe8-40ce-9924-d3a0480c75c5)
+
+
+### Referências
+
+_@inproceedings{nr-aaai15,
+      title = {The Network Data Repository with Interactive Graph Analytics and Visualization},
+      author={Ryan A. Rossi and Nesreen K. Ahmed},
+      booktitle = {AAAI},
+      url={http://networkrepository.com},
+      year={2015}_
 
 
